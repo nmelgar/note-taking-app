@@ -1,0 +1,17 @@
+Install MongoDB Node.js driver (using NPM):
+    - initialize the project: npm init
+        - si marca error, correr en power shell como admin Set-ExecutionPolicy Unrestricted
+        No se puede cargar el archivo C:\Users\admin\Documents\WindowsPowerShell\profile.ps1 
+        porque la ejecución de scripts está deshabilitada en este sistema. Para obtener más 
+        información, consulta el tema about_Execution_Policies...
+    - open the app
+    - install the driver, using the terminal
+        - npm install mongodb
+    - login with the atlas account in the website
+        - https://cloud.mongodb.com/
+        - database > cluster > connect > shell
+
+
+Optional course: 
+    - https://learn.mongodb.com/learning-paths/using-mongodb-with-nodejs
+
