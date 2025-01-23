@@ -9,8 +9,10 @@ Install MongoDB Node.js driver (using NPM):
         - npm install mongodb
     - login with the atlas account in the website
         - https://cloud.mongodb.com/
-        - database > cluster > connect > shell
-
+        - database > cluster > connect > drivers (to connect with the application)
+        - use the code with the user's info
+        - don't forget to set the IP address, otherwise it will not connect
+        - an application should use a single MongoCliente instance for all db requests
 
 Optional course: 
     - https://learn.mongodb.com/learning-paths/using-mongodb-with-nodejs
