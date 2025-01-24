@@ -2,14 +2,19 @@
   "name": "note-taking-app",
   "version": "1.0.0",
   "description": "A simple and powerful note-taking application built with Node.js and MongoDB. This app allows users to easily create, edit, delete, and organize their notes. It also features a note history to track changes over time. Designed for learning and exploring modern web development with Node.js and MongoDB.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.21.2",
     "mongodb": "^6.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
